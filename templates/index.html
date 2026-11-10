@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body style="text-align:center; font-family:Arial;">
+<h1>Cat vs Dog Classifier 🐱 vs 🐶</h1>
+<form method="POST" enctype="multipart/form-data">
+<input type="file" name="image" required><br><br>
+<button type="submit">Check Karo</button>
+</form>
+{% if result %}
+<h2>{{ result }}</h2>
+{% endif %}
+</body>
+</html>
